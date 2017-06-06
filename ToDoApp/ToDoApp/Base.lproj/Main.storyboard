@@ -49,7 +49,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FOF-mH-X0x" secondAttribute="bottom" id="bln-G4-6Fj"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="To Do" id="DMs-jv-HxB"/>
+                    <tabBarItem key="tabBarItem" title="To Do" image="ic_list" id="DMs-jv-HxB"/>
                     <connections>
                         <outlet property="todoTableView" destination="FOF-mH-X0x" id="JDH-Wb-lRR"/>
                     </connections>
@@ -101,7 +101,7 @@
                             <constraint firstItem="6Lt-iw-Ulw" firstAttribute="centerX" secondItem="Tla-qk-gul" secondAttribute="centerX" id="SMo-wK-Wad"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Add" id="8wx-e1-DfK"/>
+                    <tabBarItem key="tabBarItem" title="Add" image="ic_playlist_add" id="8wx-e1-DfK"/>
                     <connections>
                         <outlet property="taskTextField" destination="D0W-mx-280" id="VnN-ws-eUt"/>
                     </connections>
@@ -129,4 +129,8 @@
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_list" width="24" height="24"/>
+        <image name="ic_playlist_add" width="24" height="24"/>
+    </resources>
 </document>
